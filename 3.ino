@@ -440,4 +440,4 @@ void loop() {
   
 }
 
-
+//the content of the manifesto can not be published until its discovery.
