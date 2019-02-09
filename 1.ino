@@ -38,9 +38,9 @@ void loop() {
   delay(15);  
    
   if (val2 >= 60 && val2 <= 65) {
-  tone(8, 4300); //Wygeneruj sygnał o częstotliwości 4300Hz na pinie A5  
+  tone(8, 4300); //generate 4300khz
   delay(150);  
-  tone(8, 3500); //Wygeneruj sygnał o częstotliwości 3500Hz na pinie A5  
+  tone(8, 3500); //generate 3500khz
   delay(150);
   }
   if (val2 >= 30 && val2 <= 35) {
