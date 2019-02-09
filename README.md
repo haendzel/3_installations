@@ -1,4 +1,4 @@
-# "Open Source" installations
+# "Open Source" installation
 
 The code is for any good use and feel free to download my repository.
 
