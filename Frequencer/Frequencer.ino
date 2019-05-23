@@ -30,12 +30,12 @@ void loop() {
   val = analogRead(potpin);
   val = map(val, 0, 1023, 0, 180);
   myservo.write(val);
-  delay(15);
+ 
 
   val2 = analogRead(potpin2);
   val2 = map(val2, 0, 1023, 0, 180);
   myservo.write(val2);
-  delay(15);  
+  
    
   if (val2 >= 60 && val2 <= 65) {
   tone(8, 4300); //generate 4300khz
